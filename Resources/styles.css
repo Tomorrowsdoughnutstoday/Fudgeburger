@@ -1,0 +1,194 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url(./Images/banner\ 02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #eee;
+}
+
+/* Headings */
+
+.main-heading {
+  text-align: center;
+  padding: 10rem 4rem 15.5rem;
+  font-size: 7rem;
+}
+
+.main-heading-350px {
+  font-size: 6rem;
+  display: none;
+}
+
+.sub-heading {
+  font-family: "Abril Fatface", cursive;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+/* Navigation Bar */
+
+.bg-dark {
+  opacity: 0.7;
+}
+
+/* Quote */
+.title-quote {
+  padding: 2rem 0;
+  color: #222831;
+}
+
+/* Gallery */
+
+#gallery {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+/* Call to action (CTA)  section  */
+
+#CTA-Section {
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+}
+
+.button-item {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.CTA-button {
+  background-color: rgb(45, 64, 89);
+  border: 1px solid rgb(45, 64, 89);
+  width: 9rem;
+  height: 4rem;
+  color: #eee;
+  line-height: 1;
+  font-weight: lighter;
+}
+
+/* Our Story Section */
+
+#our-story-section {
+  background-image: url(./Images/festival\ food.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 644px;
+}
+
+.our-story {
+  width: 50%;
+}
+
+.our-story-content {
+  min-height: 644px;
+  padding: 5rem;
+  background-color: rgb(45, 64, 89, 0.5);
+  color: #eee;
+}
+
+.story-quote {
+  display: block;
+  font-size: 30px;
+  padding: 3rem 0 1.5rem;
+}
+
+/* Location section */
+
+#location {
+  /* background-color: #222831; */
+  background: linear-gradient(to top, #222831 0%, #50738f 100%);
+  color: #eee;
+  padding: 5rem 4rem;
+}
+
+.location-heading h4 {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.location-heading {
+  padding: 3%;
+}
+
+.location-item {
+  padding: 4%;
+}
+
+.location-item h3 {
+  color: #ff5722;
+}
+
+/* Footer */
+
+#footer-section {
+  color: #eee;
+  background-color: #222831;
+}
+
+hr {
+  margin: 0;
+  color: #eee;
+}
+
+footer a {
+  text-decoration: inherit;
+  color: inherit;
+  transition-duration: 0.25s;
+  display: block;
+  padding: 0 5px;
+}
+
+footer a:hover {
+  color: rgb(238, 238, 238, 0.5);
+}
+
+.author {
+  margin-bottom: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.footer-weblink {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.social-box {
+  text-align: center;
+}
+
+/* Media Queries*/
+
+@media (max-width: 800px) {
+  .main-heading {
+    font-size: 4.5rem;
+  }
+  .our-story {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-heading {
+    font-size: 3rem;
+    padding: 2rem 0 10rem;
+  }
+}
