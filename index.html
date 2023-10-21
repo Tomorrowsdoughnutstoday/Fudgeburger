@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400&family=Montez&family=Sacramento&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Comfortaa&family=Josefin+Sans:wght@300;400&family=Montez&family=Sacramento&display=swap"
       rel="stylesheet"
     />
     <!-- CSS and Bootstrap Stylesheets  -->
@@ -51,7 +51,9 @@
               <li class="nav-item">
                 <a class="nav-link active" href="#our-story-section">About</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">Menu</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#location">Locations</a>
               </li>
@@ -70,106 +72,108 @@
     </section>
 
     <main>
-      <section id="quote">
-        <div>
-          <span
-            ><h2 class="title-quote sub-heading">
-              The Original Purveyors Of Gourmet Filth
-            </h2></span
-          >
-        </div>
-      </section>
-      <section id="gallery">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
+      <div class="gallery-background">
+        <section id="quote">
+          <div class="quote-wrap">
+            <div class="quote-item"><i class="fa-solid fa-burger"></i></div>
+            <div class="quote-item">
+              <span class="sub-heading"
+                >The Original Purveyors Of Gourmet Filth</span
+              >
+            </div>
           </div>
-          <div class="carousel-inner">
-            <div
-              class="carousel-item active"
-              style="background-image: url(./Resources/Images/Burger\ 01.jpg)"
-            ></div>
-            <div
-              class="carousel-item"
-              style="background-image: url(./Resources/Images/Burger\ 02.jpg)"
-            ></div>
-            <div
-              class="carousel-item"
-              style="
-                background-image: url(./Resources/Images/chickenburger.jpg);
-              "
-            ></div>
-            <div
-              class="carousel-item"
-              style="background-image: url(./Resources/Images/veggieburger.jpg)"
-            ></div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
+        </section>
+        <section id="gallery">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="true"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
-      <section id="CTA-Section">
-        <div class="CTA-Options row">
-          <div class="col button-item">
-            <button type="button" class="btn CTA-button btn-lg">
-              Book a Table
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div
+                class="carousel-item active"
+                style="background-image: url(./Resources/Images/Burger\ 01.jpg)"
+              ></div>
+              <div
+                class="carousel-item"
+                style="background-image: url(./Resources/Images/Burger\ 02.jpg)"
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url(./Resources/Images/chickenburger.jpg);
+                "
+              ></div>
+              <div
+                class="carousel-item"
+                style="
+                  background-image: url(./Resources/Images/veggieburger.jpg);
+                "
+              ></div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="col button-item">
-            <button type="button" class="btn CTA-button btn-lg">Menu</button>
+        </section>
+        <section id="CTA-Section">
+          <div><i class="fa-solid fa-utensils"></i></div>
+          <div class="CTA-buttons">
+            <button class="CTA-btn">Book</button>
+            <button class="CTA-btn">Menu</button>
+            <button class="CTA-btn">Events</button>
           </div>
-          <div class="col button-item">
-            <button type="button" class="btn CTA-button btn-lg">
-              Event Bookings
-            </button>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <section id="our-story-section">
         <div class="our-story">
@@ -263,7 +267,12 @@
           <i class="fa-brands fa-instagram"></i>
         </div>
       </div>
-      <a href="#" class="author">website built by jess</a>
+      <p>
+        Website designed and built by
+        <a href="www.linkedin.com/in/jessica-stansfield-250725160/"
+          >Jess Stansfield</a
+        >
+      </p>
     </footer>
     <!-- Bootstrap Scripts -->
     <script

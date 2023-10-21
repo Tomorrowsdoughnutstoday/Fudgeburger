@@ -1,0 +1,190 @@
+body {
+  /* font-family: "Josefin Sans", sans-serif; */
+  /* font-family: "East Sea Dokdo", cursive; */
+  font-family: "Comfortaa", cursive;
+  margin: 0;
+  color: #eee;
+}
+
+/* Navigation Bar */
+
+.bg-dark {
+  opacity: 0.7;
+}
+
+.navbar-nav {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+}
+
+/* Title Section */
+
+#title {
+  background-image: url(./Images/burger\ banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Headings */
+
+.main-heading {
+  text-align: center;
+  padding: 10rem 4rem 15.5rem;
+  font-size: 7rem;
+  margin-bottom: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Menu */
+
+#menu {
+  background: linear-gradient(
+    to top,
+    rgb(34, 40, 49) 0%,
+    rgb(80, 115, 143) 100%
+  );
+}
+
+.menu-list-options {
+  /* color: rgb(34, 40, 49); */
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+  padding: 7% 15%;
+  border: 2px solid rgba(238, 239, 239, 0.6);
+  border-radius: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+#menu h2 {
+  padding: 15% 0px 15px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.descript {
+  font-weight: lighter;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  /* line-height: 26px;
+  letter-spacing: 0.03em; */
+}
+
+.menu-list-options ul {
+  list-style: none;
+}
+
+/* Call to action (CTA)  section  */
+
+#click-book {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-block: 50px;
+  padding-bottom: 20px;
+  width: 75%;
+  margin: auto;
+  position: relative;
+  bottom: 75px;
+}
+
+button {
+  all: unset;
+}
+
+.CTA-btn {
+  padding: 0 30px;
+  transition-duration: 0.25s;
+  font-family: "Comfortaa", cursive;
+  font-size: 25px;
+  border: 2px solid rgba(238, 239, 239, 0.6);
+  border-radius: 20px;
+  background: linear-gradient(
+    to top,
+    rgb(34, 40, 49) 0%,
+    rgb(80, 115, 143) 100%
+  );
+}
+
+.CTA-btn:hover {
+  color: rgb(238, 238, 238, 0.5);
+}
+
+.CTA p {
+  font-family: "East Sea Dokdo", cursive;
+}
+
+/* Footer */
+
+#footer-section {
+  background-color: #222831;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+hr {
+  margin: 0;
+}
+
+footer a {
+  text-decoration: inherit;
+  color: inherit;
+  transition-duration: 0.25s;
+  display: block;
+  padding: 0 5px;
+}
+
+footer a:hover {
+  color: rgb(238, 238, 238, 0.5);
+}
+
+footer p {
+  margin: 5px;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.footer-weblink {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.social-box {
+  text-align: center;
+}
+
+.fa-brands {
+  padding: 10px;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  color: rgb(238, 238, 238, 0.5);
+}
+
+/* -------- Media Queries --------- */
+
+@media (max-width: 800px) {
+  .menu-list-options {
+    width: 85%;
+    padding: 7%;
+  }
+
+  .descript {
+    font-size: 1.5rem;
+  }
+}
